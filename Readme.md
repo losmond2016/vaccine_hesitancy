@@ -27,8 +27,9 @@ All code is stored in Jupyter notebooks. Packages used are:
     - Python
     - Pandas, Numpy, Sklearn, imblearn
     - Scikitplot, matplotlib, seaborn,
-    - Joblib
-A full outline of the survey questions, and data dictionary can be found in the initial data cleaning section (include link). Raw CSV data is available upon request.
+    - Joblib  
+    
+A full outline of the survey questions, and data dictionary can be found in the initial data cleaning section. Raw CSV data is available upon request.
 
 ### Summary of Findings  
 **Can we predict willingness to take the vaccine based on a set of demographic and attitudinal information?**
