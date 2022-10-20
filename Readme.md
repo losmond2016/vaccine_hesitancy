@@ -39,7 +39,7 @@ Despite a significant imbalance in target classes, the initial wave 1 'willingne
 The initial model generalises relatively poorly on wave 2 data, and even retraining the model on a wave 2 training data set using the same parameters and features fails to significantly improve results  
 
 **Can further information be added to the model to improve its predictions?**  
-Retraining the model using extra feature information only present in the wave 2 data set does improve the model's performance in maximising the recall of classes 1, 3 and 4. However, class 2 precision and recall is low.  
+Retraining the model using extra feature information only present in the wave 2 data set does improve the model's performance in maximising the recall of 3 classes (Those 'Definitely Willing to take the vaccine', 'Unsure but leaning towards no', 'Definitely Unwilling to take the vaccine'). However, the model's ability to predict those 'Unsure but leaning towards yes' is low.  
 
 **To what extent can these willingness predictions be used to predict actual uptake**  
 The generated 'willingness' score does emerge as an important predictor variable, with those reporting to be less willing to take the vaccine also less likely to have followed through with the behaviour.  
