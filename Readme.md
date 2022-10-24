@@ -38,10 +38,10 @@ The modelling process was divided into the following stages:
     - Retraining the wave 1 willingness model to wave 2 data, with extra features.
     - Using the wave 2 willingness model to further model actual uptake.
 
-**Preprocessing**
+**Preprocessing**  
 In order to address significant class imbalance in the target variable, SMOTE resampling was used to equalize classes. Meanwhile, Principal Component Analysis & Elasticnet regularization was used to simplify predictors and minimize the impact of any potential multicollinearity. All predictor data was standardized to ensure any differences in predictor scales would not impact feature coefficients. Data was split into train and test splits, with test data representing 20% of the total sample size.  
 
-**Modelling**
+**Modelling**  
 Each modelling stage followed a series of iterative sub-processes, such that at each stage of the modelling, steps were taken to minimize the impact of potential issues (e.g. unbalanced classes, multicollinearity), and model performance could be directly compared at each stage of the process.  
 
 At each modelling stage, the following process was followed:
